@@ -1,0 +1,27 @@
+.projectsSection {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 1px solid #ccc;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  margin: 1rem 0;
+}
+
+.link {
+  color: #4b0082;
+  text-decoration: underline;
+  display: inline-block;
+  margin: 0.5rem 0;
+}
+
+.image {
+  margin-top: 1rem;
+  width: 200px;
+  border-radius: 8px;
+}

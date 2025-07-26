@@ -1,0 +1,42 @@
+/* src/components/Navbar.module.css */
+
+.navbar {
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* black-purple gradient */
+  padding: 1rem 2rem;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.navLinks a {
+  color: #eee;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navLinks a:hover {
+  color: #c084fc; /* light purple on hover */
+}
